@@ -1,0 +1,1 @@
+sudo cp /vagrant/bin/bash.bashrc /etc/bash.bashrc

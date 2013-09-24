@@ -8,4 +8,5 @@ Vagrant::Config.run do |config|
 	config.vm.provision :shell, :path => "bin/install-rvm.sh",  :args => "stable"
 	config.vm.provision :shell, :path => "bin/install-ruby.sh", :args => "2.0.0"
 	config.vm.provision :shell, :path => "bin/install-extra.sh"
+	config.vm.provision :shell, :path => "bin/copy-bash.sh"
 end
